@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```markdown
+# Tavus Wizard UI
 
-## Getting Started
+A developer-friendly interface for interacting with the [Tavus API](https://docs.tavus.io/sections/introduction). This project provides a visual wizard for managing replicas, personas, conversations, and video generation with Tavus.
 
-First, run the development server:
+![Tavus Wizard UI Screenshot](screenshot.png)
 
+## Features
+
+- 🎭 **Replica & Persona Management**: Create and manage digital replicas and personas
+- 🎥 **Video Generation**: Generate videos with custom scripts and backgrounds
+- 💬 **Conversation Management**: Set up and control interactive conversations
+- 🎨 **Modern UI**: Dark-themed interface with syntax highlighting
+- 📝 **Code Preview**: Real-time code snippet generation for API interactions
+- 🛠️ **Customization**: Extensive settings for video and conversation properties
+
+## Installation
+
+This project is currently a work in progress. To get started:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/tavus-wizard.git
+cd tavus-wizard
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Create a `.env.local` file in the root directory and add your Tavus API key:
+```bash
+NEXT_PUBLIC_TAVUS_API_KEY=your_api_key_here
+```
+
+4. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js 14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Prism.js](https://prismjs.com/) for syntax highlighting
+- [Lucide Icons](https://lucide.dev/)
 
-## Learn More
+## Project Status
 
-To learn more about Next.js, take a look at the following resources:
+⚠️ **Work in Progress**: This project is currently under active development. Features may be incomplete or subject to change.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[MIT](LICENSE)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Related Links
+
+- [Tavus Documentation](https://docs.tavus.io/sections/introduction)
+- [Tavus Examples Repository](https://github.com/Tavus-Engineering/tavus-examples)
+- [Support](https://www.tavus.io/support)
+```

@@ -1,0 +1,68 @@
+/**
+ * VS Code-like dark theme
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #d4d4d4;
+  text-shadow: none;
+  font-family: Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  background: transparent !important;
+}
+
+.token.comment {
+  color: #6A9955;
+}
+
+.token.string {
+  color: #CE9178;
+}
+
+.token.number {
+  color: #B5CEA8;
+}
+
+.token.keyword {
+  color: #C586C0;
+}
+
+.token.function {
+  color: #DCDCAA;
+}
+
+.token.operator {
+  color: #D4D4D4;
+}
+
+.token.class-name {
+  color: #4EC9B0;
+}
+
+.token.constant {
+  color: #4FC1FF;
+}
+
+.token.punctuation {
+  color: #D4D4D4;
+}
+
+.token.property {
+  color: #9CDCFE;
+}
+
+.token.parameter {
+  color: #9CDCFE;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  background: #264F78;
+  color: #d4d4d4;
+}
