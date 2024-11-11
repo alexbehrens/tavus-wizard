@@ -1,7 +1,6 @@
-```markdown
 # Tavus Wizard UI
 
-A developer-friendly interface for interacting with the [Tavus API](https://docs.tavus.io/sections/introduction). This project provides a visual wizard for managing replicas, personas, conversations, and video generation with Tavus.
+A lightweight developer-friendly interface for interacting with the [Tavus API](https://docs.tavus.io/sections/introduction). This project provides a visual wizard for managing replicas, personas, conversations, and video generation with Tavus.
 
 ![Tavus Wizard UI Screenshot](screenshot.png)
 
@@ -20,7 +19,7 @@ This project is currently a work in progress. To get started:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/tavus-wizard.git
+git clone https://github.com/alexbehrens/tavus-wizard.git
 cd tavus-wizard
 ```
 
@@ -33,12 +32,7 @@ yarn install
 pnpm install
 ```
 
-3. Create a `.env.local` file in the root directory and add your Tavus API key:
-```bash
-NEXT_PUBLIC_TAVUS_API_KEY=your_api_key_here
-```
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 # or
@@ -47,7 +41,7 @@ yarn dev
 pnpm dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Tech Stack
 
